@@ -21,10 +21,10 @@
 1. Create an IAM user/role  with Route53, EC2, IAM and S3 full access
     Go to https://console.aws.amazon.com/iam/home
     Click on Roles --> Create roles --> EC2 --> Permissions --> and give the below,
-[AWS Managed Policy] AmazonS3FullAccess
-[AWS Managed Policy] AmazonEC2FullAccess
-[AWS Managed Policy] AmazonRoute53FullAccess
-[AWS Managed Policy] IAMFullAccess 
+AmazonS3FullAccess
+AmazonEC2FullAccess
+AmazonRoute53FullAccess
+IAMFullAccess 
 
 Click on tags and give any name for the roles. Under preview give the role name and give create.
 
